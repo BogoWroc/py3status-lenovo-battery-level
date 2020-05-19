@@ -11,6 +11,11 @@
 cp lenovo_battery_level.py ~/.i3/py3status  
 ```
 
+and in i3status.conf add 
+```text
+order += "lenovo_battery_level"
+```
+
 # testing
 
 run the tests with tox:
